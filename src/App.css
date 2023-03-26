@@ -63,3 +63,39 @@
   text-align: center;
   margin: 10px auto;
 }
+
+@media only screen and (max-width: 1024px) {
+  .post{
+    margin: 7px;
+    min-height: 120px;
+    padding: 7px;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .post{
+    margin: 6px;
+    min-height: 120px;
+    padding: 6px;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .post{
+    margin: 6px;
+    min-height: 160px;
+    padding: 6px;
+    width: 27%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .post{
+    margin: 6px;
+    min-height: 160px;
+    padding: 6px;
+    width: 25%;
+  }
+}
