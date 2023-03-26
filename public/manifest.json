@@ -1,6 +1,7 @@
 {
   "short_name": "React PWA App",
   "name": "React PWA App",
+  "description": "A PWA boilerplate/reference application in React",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,10 +19,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "background_color": "#2196f3",
   "display": "standalone",
   "scope": "/",
   "theme_color": "#2196f3",
-  "orientation": "any"
+  "orientation": "portrait"
 }
