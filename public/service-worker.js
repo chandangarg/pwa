@@ -5,3 +5,11 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+
+self.addEventListener('install', function(event) {
+    console.log('install function executed')
+});
+
+self.addEventListener('activate', function(event) {
+    console.log('activate function executed')
+});

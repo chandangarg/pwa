@@ -1,6 +1,6 @@
 {
   "short_name": "React PWA App",
-  "name": "My first pwa sample app",
+  "name": "React PWA App",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +19,9 @@
     }
   ],
   "start_url": ".",
+  "background_color": "#2196f3",
   "display": "standalone",
+  "scope": "/",
   "theme_color": "#2196f3",
-  "background_color": "#2196f3"
+  "orientation": "any"
 }
