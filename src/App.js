@@ -11,6 +11,7 @@ function App() {
     window.addEventListener("beforeinstallprompt", (e) => {
       // Prevent the mini-infobar from appearing on mobile
       // e.preventDefault();
+
       // Stash the event so it can be triggered later.
       deferredPrompt = e;
       // Update UI notify the user they can install the PWA
@@ -48,15 +49,22 @@ function App() {
 
   return (
     <div className="App">
+      <h1>React PWA Boilerplate</h1>
+      <p>
+        Install this web application when prompted to test PWA installability.
+      </p>
       {installable &&
+        <>
+          <p>You can also install it by clicking on button below.</p>
           <div
-            className="add-button"
+            className="addButton"
             color="danger"
             type="button"
             onClick={handleInstallClick}
           >
             Add to home screen
           </div>
+        </>
       }
       
       {
